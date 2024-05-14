@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+.timer-watch{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    /* min-height: 100-vh; */
+    scale: 2;
+    margin-top: 350px;
+}
+
+
+.timer{
+    background-color: rgba(0, 0, 0, 0.5);
+   font-size: 42px;
+   padding-inline: 10px;
+   margin: 15px 15px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgb(173, 115, 8);
+   border: 1px solid black;
+}
+
+.time-score{
+    margin-top: 20px;
+}
+
+#start{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+   box-shadow: 2px 2px 2px black;
+   cursor: pointer;
+}
+
+#pause{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    width: 50px;
+   box-shadow: 2px 2px 2px black ;
+   cursor: pointer;
+}
+
+#stop{
+    background-color: crimson;
+    color: black;
+    border-radius: 5px;
+    width: 50px;
+   box-shadow: 2px 2px 2px black ;
+   cursor: pointer;
+
+}
+
+#reset{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    width: 50px;
+   box-shadow: 2px 2px 2px black ;
+   cursor: pointer;
+
+}
